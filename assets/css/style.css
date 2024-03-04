@@ -513,7 +513,7 @@ h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 50px 0;
   overflow: hidden;
 }
 
@@ -649,53 +649,53 @@ section {
 /*--------------------------------------------------------------
 # Why Us
 --------------------------------------------------------------*/
-.why-us .content {
+.aboutUs .content {
   padding: 60px 100px 0 100px;
 }
 
-.why-us .content h3 {
+.aboutUs .content h3 {
   font-weight: 400;
   font-size: 34px;
   color: #37517e;
 }
 
-.why-us .content h4 {
+.aboutUs .content h4 {
   font-size: 20px;
   font-weight: 700;
   margin-top: 5px;
 }
 
-.why-us .content p {
+.aboutUs .content p {
   font-size: 15px;
   color: #848484;
 }
 
-.why-us .img {
+.aboutUs .img {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
 }
 
-.why-us .accordion-list {
+.aboutUs .accordion-list {
   padding: 0 100px 60px 100px;
 }
 
-.why-us .accordion-list ul {
+.aboutUs .accordion-list ul {
   padding: 0;
   list-style: none;
 }
 
-.why-us .accordion-list li+li {
+.aboutUs .accordion-list li+li {
   margin-top: 15px;
 }
 
-.why-us .accordion-list li {
+.aboutUs .accordion-list li {
   padding: 20px;
   background: #fff;
   border-radius: 4px;
 }
 
-.why-us .accordion-list a {
+.aboutUs .accordion-list a {
   display: block;
   position: relative;
   font-family: "Poppins", sans-serif;
@@ -707,70 +707,70 @@ section {
   cursor: pointer;
 }
 
-.why-us .accordion-list span {
+.aboutUs .accordion-list span {
   color: #47b2e4;
   font-weight: 600;
   font-size: 18px;
   padding-right: 10px;
 }
 
-.why-us .accordion-list i {
+.aboutUs .accordion-list i {
   font-size: 24px;
   position: absolute;
   right: 0;
   top: 0;
 }
 
-.why-us .accordion-list p {
+.aboutUs .accordion-list p {
   margin-bottom: 0;
   padding: 10px 0 0 0;
 }
 
-.why-us .accordion-list .icon-show {
+.aboutUs .accordion-list .icon-show {
   display: none;
 }
 
-.why-us .accordion-list a.collapsed {
+.aboutUs .accordion-list a.collapsed {
   color: #343a40;
 }
 
-.why-us .accordion-list a.collapsed:hover {
+.aboutUs .accordion-list a.collapsed:hover {
   color: #47b2e4;
 }
 
-.why-us .accordion-list a.collapsed .icon-show {
+.aboutUs .accordion-list a.collapsed .icon-show {
   display: inline-block;
 }
 
-.why-us .accordion-list a.collapsed .icon-close {
+.aboutUs .accordion-list a.collapsed .icon-close {
   display: none;
 }
 
 @media (max-width: 1024px) {
 
-  .why-us .content,
-  .why-us .accordion-list {
+  .aboutUs .content,
+  .aboutUs .accordion-list {
     padding-left: 0;
     padding-right: 0;
   }
 }
 
 @media (max-width: 992px) {
-  .why-us .img {
+  .aboutUs .img {
     min-height: 400px;
   }
 
-  .why-us .content {
+  .aboutUs .content {
     padding-top: 30px;
   }
 
-  .why-us .accordion-list {
+  .aboutUs .accordion-list {
     padding-bottom: 30px;
   }
 }
 
 @media (max-width: 575px) {
-  .why-us .img {
+  .aboutUs .img {
     min-height: 200px;
   }
 }
@@ -1094,9 +1094,9 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Team
+# Stats
 --------------------------------------------------------------*/
-.team .member {
+.stats .member {
   position: relative;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   padding: 30px;
@@ -1106,32 +1106,32 @@ section {
   height: 100%;
 }
 
-.team .member .pic {
+.stats .member .pic {
   overflow: hidden;
   width: 180px;
   /* border-radius: 50%; */
 }
 
-.team .member .pic img {
+.stats .member .pic img {
   transition: ease-in-out 0.3s;
 }
 
-.team .member:hover {
+.stats .member:hover {
   transform: translateY(-10px);
 }
 
-.team .member .member-info {
+.stats .member .member-info {
   padding-left: 30px;
 }
 
-.team .member h4 {
+.stats .member h4 {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 20px;
   color: #37517e;
 }
 
-.team .member span {
+.stats .member span {
   display: block;
   font-size: 15px;
   padding-bottom: 10px;
@@ -1139,7 +1139,7 @@ section {
   font-weight: 500;
 }
 
-.team .member span::after {
+.stats .member span::after {
   content: "";
   position: absolute;
   display: block;
@@ -1150,19 +1150,19 @@ section {
   left: 0;
 }
 
-.team .member p {
+.stats .member p {
   margin: 10px 0 0 0;
   font-size: 14px;
 }
 
-.team .member .social {
+.stats .member .social {
   margin-top: 12px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
 }
 
-.team .member .social a {
+.stats .member .social a {
   transition: ease-in-out 0.3s;
   display: flex;
   align-items: center;
@@ -1173,21 +1173,21 @@ section {
   background: #eff2f8;
 }
 
-.team .member .social a i {
+.stats .member .social a i {
   color: #37517e;
   font-size: 16px;
   margin: 0 2px;
 }
 
-.team .member .social a:hover {
+.stats .member .social a:hover {
   background: #47b2e4;
 }
 
-.team .member .social a:hover i {
+.stats .member .social a:hover i {
   color: #fff;
 }
 
-.team .member .social a+a {
+.stats .member .social a+a {
   margin-left: 8px;
 }
 /*----------------------------------------
@@ -1202,14 +1202,144 @@ icon box
   text-align: center;
   margin-left: 120px;
 }
+
+
 /*--------------------------------------------------------------
-# Pricing
+# Hero Apply Creator Section
 --------------------------------------------------------------*/
-.pricing .row {
+#hero_appCre {
+  width: 100%;
+  /* height: 80vh; */
+  background: #37517e;
+}
+
+/* #hero_appCre .container {
+  padding-top: 72px;
+} */
+
+#hero_appCre h1 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+}
+
+#hero_appCre h2 {
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 50px;
+  font-size: 24px;
+}
+
+#hero_appCre .btn-get-started {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 28px 11px 28px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px 0 0 0;
+  color: #fff;
+  background: #47b2e4;
+}
+
+#hero_appCre .btn-get-started:hover {
+  background: #209dd8;
+}
+
+#hero_appCre .btn-watch-video {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  transition: 0.5s;
+  margin: 10px 0 0 25px;
+  color: #fff;
+  line-height: 1;
+}
+
+#hero_appCre .btn-watch-video i {
+  line-height: 0;
+  color: #fff;
+  font-size: 32px;
+  transition: 0.3s;
+  margin-right: 8px;
+}
+
+#hero_appCre .btn-watch-video:hover i {
+  color: #47b2e4;
+}
+
+#hero_appCre .animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@media (max-width: 991px) {
+  #hero_appCre {
+    height: 100vh;
+    text-align: center;
+  }
+
+  #hero_appCre .animated {
+    animation: none;
+  }
+
+  #hero_appCre .hero-img {
+    text-align: center;
+  }
+
+  #hero_appCre .hero-img img {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero_appCre h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  #hero_appCre h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+
+  #hero_appCre .hero-img img {
+    width: 70%;
+  }
+}
+
+@media (max-width: 575px) {
+  #hero_appCre .hero-img img {
+    width: 80%;
+  }
+
+  #hero_appCre .btn-get-started {
+    font-size: 16px;
+    padding: 10px 24px 11px 24px;
+  }
+}
+
+@keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+/*--------------------------------------------------------------
+# applyCreator
+--------------------------------------------------------------*/
+.applyCreator .row {
   padding-top: 40px;
 }
 
-.pricing .box {
+.applyCreator .box {
   padding: 60px 40px;
   box-shadow: 0 3px 20px -2px rgba(20, 45, 100, 0.1);
   background: #fff;
@@ -1219,14 +1349,14 @@ icon box
   text-align: center;
 }
 
-.pricing h3 {
+.applyCreator h3 {
   font-weight: 500;
   margin-bottom: 15px;
   font-size: 20px;
   color: #37517e;
 }
 
-.pricing h4 {
+.applyCreator h4 {
   font-size: 48px;
   color: #37517e;
   font-weight: 400;
@@ -1234,17 +1364,17 @@ icon box
   margin-bottom: 25px;
 }
 
-.pricing h4 sup {
+.applyCreator h4 sup {
   font-size: 28px;
 }
 
-.pricing h4 span {
+.applyCreator h4 span {
   color: #47b2e4;
   font-size: 18px;
   display: block;
 }
 
-.pricing ul {
+.applyCreator ul {
   padding: 20px 0;
   list-style: none;
   color: #999;
@@ -1252,12 +1382,12 @@ icon box
   line-height: 20px;
 }
 
-.pricing ul li {
+.applyCreator ul li {
   padding: 10px 0 10px 30px;
   position: relative;
 }
 
-.pricing ul i {
+.applyCreator ul i {
   color: #28a745;
   font-size: 24px;
   position: absolute;
@@ -1265,19 +1395,19 @@ icon box
   top: 6px;
 }
 
-.pricing ul .na {
+.applyCreator ul .na {
   color: #ccc;
 }
 
-.pricing ul .na i {
+.applyCreator ul .na i {
   color: #ccc;
 }
 
-.pricing ul .na span {
+.applyCreator ul .na span {
   text-decoration: line-through;
 }
 
-.pricing .buy-btn {
+.applyCreator .buy-btn {
   display: inline-block;
   padding: 12px 35px;
   border-radius: 50px;
@@ -1290,40 +1420,40 @@ icon box
   border: 1px solid #47b2e4;
 }
 
-.pricing .buy-btn:hover {
+.applyCreator .buy-btn:hover {
   background: #47b2e4;
   color: #fff;
 }
 
-.pricing .featured {
+.applyCreator .featured {
   border-top-color: #47b2e4;
 }
 
-.pricing .featured .buy-btn {
+.applyCreator .featured .buy-btn {
   background: #47b2e4;
   color: #fff;
 }
 
-.pricing .featured .buy-btn:hover {
+.applyCreator .featured .buy-btn:hover {
   background: #23a3df;
 }
 
 @media (max-width: 992px) {
-  .pricing .box {
+  .applyCreator .box {
     max-width: 60%;
     margin: 0 auto 30px auto;
   }
 }
 
 @media (max-width: 767px) {
-  .pricing .box {
+  .applyCreator .box {
     max-width: 80%;
     margin: 0 auto 30px auto;
   }
 }
 
 @media (max-width: 420px) {
-  .pricing .box {
+  .applyCreator .box {
     max-width: 100%;
     margin: 0 auto 30px auto;
   }
@@ -1608,7 +1738,7 @@ padding-top: 75px;
   text-rendering: auto;
   display: inline-block;
   text-transform: none;
-  speak: none;
+  /* speak: none; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -2012,41 +2142,45 @@ padding-top: 75px;
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 
+#hero_1 #termsLink{
+  color: #223f4d;
+  font-size: 12px;
+}
 @media (max-width: 991px) {
-  #hero {
+  #hero_1 {
     height: 100vh;
     text-align: center;
   }
 
-  #hero .animated {
+  #hero_1 .animated {
     animation: none;
   }
 
 }
 
 @media (max-width: 768px) {
-  #hero h1 {
+  #hero_1 h1 {
     font-size: 28px;
     line-height: 36px;
   }
 
-  #hero h2 {
+  #hero_1 h2 {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
   }
 
-  #hero .hero-img img {
+  #hero_1 .hero-img img {
     width: 70%;
   }
 }
 
 @media (max-width: 575px) {
-  #hero .hero-img img {
+  #hero_1 .hero-img img {
     width: 80%;
   }
 
-  #hero .btn-get-started {
+  #hero_1 .btn-get-started {
     font-size: 16px;
     padding: 10px 24px 11px 24px;
   }
@@ -2066,7 +2200,9 @@ padding-top: 75px;
   padding-top: 72px;
 }
 
-/* Login modal */
+/*--------------------------------------------------------------
+# Login modal
+--------------------------------------------------------------*/
 .modal-login {
 	width: 350px;
 }
@@ -2176,4 +2312,164 @@ padding-top: 75px;
 #logo{
   height: 60px;
   width: 60px;
+}
+
+
+/*--------------------------------------------------------------
+# Terms and conditions modal
+--------------------------------------------------------------*/
+
+.termsModal .modal {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.5);
+}
+.termsModal .modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+.termsModal .close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.termsModal .close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+@media screen and (min-width: 676px) {
+  .termsModal .modal-dialog {
+    max-width: 1200px; /* New width for default modal */
+  }
+}
+
+#termsAndConditions p{
+  font-size: 13px;
+}
+
+/*--------------------------------------------------------------
+# Free Trial modal
+--------------------------------------------------------------*/
+.modal-freetrial {
+	width: 850px;
+}
+.modal-freetrial .modal-content {
+	padding: 20px;
+	border-radius: 5px;
+	border: none;
+}
+.modal-freetrial .modal-header {
+	border-bottom: none;
+	position: relative;
+	justify-content: center;
+}
+.modal-freetrial .close {
+	position: absolute;
+	top: -10px;
+	right: -10px;
+}
+.modal-freetrial h4 {
+	color: #636363;
+	text-align: center;
+	font-size: 26px;
+	margin-top: 0;
+}
+.modal-freetrial .modal-content {
+	color: #999;
+	border-radius: 1px;
+	margin-bottom: 15px;
+	background: #fff;
+	border: 1px solid #f3f3f3;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+	padding: 25px;
+}
+.modal-freetrial .form-group {
+	margin-bottom: 20px;
+}
+.modal-freetrial label {
+	font-weight: normal;
+	font-size: 13px;
+}
+.modal-freetrial .form-control {
+	min-height: 38px;
+	padding-left: 5px;
+	box-shadow: none !important;
+	border-width: 0 0 1px 0;
+	border-radius: 0;
+}
+.modal-freetrial .form-control:focus {
+	border-color: #ccc;
+}
+.modal-freetrial .input-group-addon {
+	max-width: 42px;
+	text-align: center;
+	background: none;
+	border-bottom: 1px solid #ced4da;
+	padding-right: 5px;
+	border-radius: 0;
+}
+.modal-freetrial .btn, .modal-freetrial .btn:active {        
+	font-size: 16px;
+	font-weight: bold;
+	background: #37517e !important;
+	border-radius: 3px;
+	border: none;
+	min-width: 140px;
+}
+.modal-freetrial .btn:hover, .modal-freetrial .btn:focus {
+	background: #209dd8 !important;
+}
+.modal-freetrial .hint-text {
+	text-align: center;
+	padding-top: 5px;
+	font-size: 13px;
+}
+.modal-freetrial .modal-footer {
+	color: #999;
+	border-color: #dee4e7;
+	text-align: center;
+	margin: 0 -25px -25px;
+	font-size: 13px;
+	justify-content: center;
+}
+.modal-freetrial a {
+	color: #fff;
+	text-decoration: underline;
+}
+.modal-freetrial a:hover {
+	text-decoration: none;
+}
+.modal-freetrial a {
+	color: #37517e;
+	text-decoration: none;
+}	
+.modal-freetrial a:hover {
+	text-decoration: underline;
+}
+.modal-freetrial .fa {
+	font-size: 21px;
+	position: relative;
+	top: 6px;
+}
+.trigger-btn {
+	display: inline-block;
+	/* margin: 100px auto; */
+}
+
+@media screen and (min-width: 676px) {
+  .freeTrialModal .modal-dialog {
+    max-width: 676px; /* New width for default modal */
+  }
 }
